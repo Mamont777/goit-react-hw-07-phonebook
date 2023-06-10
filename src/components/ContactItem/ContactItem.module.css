@@ -1,0 +1,51 @@
+.contacts__item {
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.contacts__data {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts li p span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.btnDel {
+    margin-bottom: 15px;
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 5px 0px;
+    color: green;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btnDel:hover {
+    box-shadow: rgb(255, 255, 255) -2px -2px 5px, rgb(139, 167, 147) 2px 2px 5px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.btnDel:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+.icon {
+    margin-left: 5px;
+}

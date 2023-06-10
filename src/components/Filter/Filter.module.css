@@ -1,0 +1,24 @@
+.filterTitle {
+    position: relative;
+    align-items: center;
+    text-shadow: -1px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+    position: absolute;
+    margin-right: 220px;
+    bottom: 53px;
+}
+
+.filterInput {
+
+    margin: 20px auto 0 auto;
+    width: 350px;
+    padding: 8px 16px;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: rgb(139, 167, 147) 1px 1px 3px inset,
+        rgb(255, 255, 255) -1px -1px 5px inset;
+    ;
+    font-style: italic;
+}
