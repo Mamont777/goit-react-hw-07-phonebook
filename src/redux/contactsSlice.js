@@ -8,7 +8,7 @@ const contactsSlice = createSlice({
     isLoading: false,
     error: null,
     showModal: false,
-    deleteId: 0,
+    // deleteId: 0,
   },
   reducers: {
     toggleModal: (state, action) => {
