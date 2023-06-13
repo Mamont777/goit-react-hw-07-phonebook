@@ -1,13 +1,14 @@
 .contacts__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .contacts__item {
+    display: flex;
     margin: 10px;
     padding-top: 5px;
+    justify-content: space-between;
+
 }
 
 .contacts__data {
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 17px;
 }
 
 .contacts li p span {
